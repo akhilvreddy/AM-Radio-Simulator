@@ -19,10 +19,10 @@ plot(rootsDenominator(2,1),0,'o');
 axis equal;
 hold off; 
 
-z = linspace(-pi,pi,100);
+w = linspace(-pi,pi,100);
 H = @(z)(z+C1)./(z.*(z-C2));
 
 figure();
-DTFT = H(z); 
+DTFT = abs(H(exp(1i*w))); 
 plot(DTFT);
 
