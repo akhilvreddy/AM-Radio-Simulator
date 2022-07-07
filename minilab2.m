@@ -24,15 +24,15 @@ c = @(t)cos(2*pi*Fc*t);
 
 s = @(t) Ac*c(t).*m;
 x = [1:length(m)]; 
-newWave = s(x);
+sWave = s(x);
  
 figure(); 
-plot(newWave);
+plot(sWave);
 xlabel('Time (s)');
 ylabel('s(t) signal');
 title('s(t) vs time');
 
-sEnergy = sum(newWave.^2 * (1/10^7));
+sEnergy = sum(sWave.^2 * (1/10^7));
 
 
 %------------------End of Part b---------------------%
@@ -46,8 +46,8 @@ alpha2 = 0.5;
 w1 = w * alpha1; 
 w2 = w * alpha2;
 
-y1 = w1 + newWave; 
-y2 = w2 + newWave; 
+y1 = w1 + sWave; 
+y2 = w2 + sWave; 
 
 figure();
 plot(y1); 
@@ -63,10 +63,10 @@ title('y(t) vs time & alpha = 0.5');
 
 %------------------End of Part c---------------------%
 
-cwave = c(x);
+cWave = c(x);
 
-v1 = y1.*cwave; 
-v2 = y2.*cwave; 
+v1 = y1.*cWave; 
+v2 = y2.*cWave; 
 
 figure();
 plot(v1); 
@@ -115,7 +115,10 @@ xlabel('Time (s)');
 ylabel('m2hat(t)'); 
 title('mhat(t) for alpha=0.5 setting');
 
-%soundsc(m1hat, Fs); 
+soundsc(m1hat, Fs);
+%added a pause for 2 seconds so that there is a break before listenting to
+%the other case
+pause(2);
 soundsc(m2hat, Fs);
 
 %------------------End of Part g---------------------%
