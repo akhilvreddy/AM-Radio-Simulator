@@ -25,14 +25,14 @@ hold off;
 %-------------End of Part D----------------%
 
 
-wvalues = linspace(-pi,pi,100);
+wValues = linspace(-pi,pi,100);
 H = @(z)(z+1)./(z.*(z-0.9));
 
-espace = exp(1i*wvalues);
-magH = abs(H(espace));
+eValues = exp(1i*wValues);
+magnitudeH = abs(H(eValues));
 
 figure();
-plot(wvalues,magH);
+plot(wValues,magnitudeH);
 xlabel('w ∈ -π to π'); 
 ylabel('|H(exp(jw)|');
 title('Frequency Diagram');
@@ -41,14 +41,14 @@ title('Frequency Diagram');
 %-------------End of Part E----------------%
 
 
-wvalues = linspace(-pi,pi,100);
+wValues = linspace(-pi,pi,100);
 H = @(z)(z+1)./(z.*(z-0.9));
 
-espace = exp(1i*wvalues);
-magH = abs(H(espace));
+eValues = exp(1i*wValues);
+magnitudeH = abs(H(eValues));
 
 figure();
-plot(wvalues,magH);
+plot(wValues,magnitudeH);
 xlabel('w ∈ -π to π'); 
 ylabel('|H(exp(jw)|'); 
 title('Frequency Diagram (lowpass filter)');
@@ -59,14 +59,14 @@ title('Frequency Diagram (lowpass filter)');
 
 %-------------End of Part F----------------%
 
-wvalues = linspace(-pi,pi,100);
+wValues = linspace(-pi,pi,100);
 H = @(z)(z-1)./(z.*(z+0.8));
 
-espace = exp(1i*wvalues);
-magH = abs(H(espace));
+eValues = exp(1i*wValues);
+magnitudeH = abs(H(eValues));
 
 figure();
-plot(wvalues,magH);
+plot(wValues,magnitudeH);
 xlabel('w ∈ -π to π'); 
 ylabel('|H(exp(jw)|'); 
 title('Frequency Diagram (c1 = -1 & c2 = -0.8)');
