@@ -7,7 +7,12 @@ For this project, I only used .wav files. This is because they are completely un
 
 
 ## Importing our file and essential packages 
+First things we have to do are import the .wav file in as well as the matlab packages that do signal processing. The song I chose to do was Space Oddity by David Bowie. 
 
+```
+song = "oddity.wav";
+uiimport(song);
+```
 
 ## Amplitude Modulation
 
