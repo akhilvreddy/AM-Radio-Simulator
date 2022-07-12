@@ -15,7 +15,7 @@ uiimport(song);
 ```
 
 ## Amplitude Modulation
-To send the wave to something like an air-wave, we had to 
+To send the wave to something like an air-wave, we had to multiply the regular part of the wave with a cosine term. 
 
 
 ## Signal Convolution
