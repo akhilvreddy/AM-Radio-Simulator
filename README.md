@@ -15,6 +15,13 @@ uiimport(song);
 ```
 
 ## Amplitude Modulation
+<p align="center">
+  <img 
+    width="950"
+    height="372"
+    src="https://github.com/akhilvreddy/AM-Radio-Simulator/blob/main/Images/image1.png"
+  >
+</p>
 To send the wave to something like an air-wave, we had to multiply the regular part of the wave with a cosine term. 
 
 
