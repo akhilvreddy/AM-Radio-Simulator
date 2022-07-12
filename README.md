@@ -53,8 +53,8 @@ This was my favorite part because I was able to visualize the changes on what ha
     height="372"
     src="https://github.com/akhilvreddy/AM-Radio-Simulator/blob/main/Images/image2.png"
   >
-</p>
-
+</pimage
+> The left image is our original signal wave and the right image is the final wave, which is supposed to be coming out of a car radio. As you can see, the car radio wave is much louder (hence the amplitude modulation) and is a little bit noisier (has more static).
 
 ## Changes I could've done 
 
