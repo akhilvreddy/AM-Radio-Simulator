@@ -15,15 +15,22 @@ uiimport(song);
 ```
 
 ## Amplitude Modulation
+To send the wave to something like an air-wave, we had to 
 
 
 ## Signal Convolution
+Convolution was needed to get the __ to the ___. 
 
 
 ## Unwrapping the Signal
 
 
 ## Input Signal vs Output Signal 
+This was my favorite part because I was able to visualize the changes on what happened to the inut signal. I saw that though the overall shape of the signal remained the same, there was definnitely some unwanted noise. This could be fixed by reducing the alpha value, which I think radio stations aim to do.
+
+
+https://user-images.githubusercontent.com/101938119/178377960-617aa890-fd4e-4374-a0d8-bbb52e096cc2.mov
+
 
 
 ## Changes I could've done 
