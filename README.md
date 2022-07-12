@@ -47,8 +47,16 @@ soundsc(m1,Fs);
 ## Input Signal vs Output Signal 
 This was my favorite part because I was able to visualize the changes on what happened to the inut signal. I saw that though the overall shape of the signal remained the same, there was definnitely some unwanted noise. This could be fixed by reducing the alpha value, which I think radio stations aim to do. Also, I think alpha is just an exponential function of how far you are from the radio station since static increases drastically the farther you are from a station while driving.
 
+<p align="center">
+  <img 
+    width="950"
+    height="372"
+    src="https://github.com/akhilvreddy/AM-Radio-Simulator/blob/main/Images/image2.png"
+  >
+</p>
 
 
+> The left image is our original signal wave and the right image is the final wave, which is supposed to be coming out of a car radio. As you can see, the car radio wave is much louder (hence the amplitude modulation) and is a little bit noisier (has more static).
 
 ## Changes I could've done 
 
