@@ -54,5 +54,5 @@ This was my favorite part because I was able to visualize the changes on what ha
 
 - I could've lengthened the .wav file in order to model a real song on the radio. However, my laptop was struggling to process a 5 second file, it definitely would've struggled with a longer file.  
 - I should've passed the signal through a bandpass filter instead of just a lowpass signal to reject both very high frequency parts and very low frequency parts. 
-- Trying this out
+- Trying this out with a mp3 file could've been cool, and seeing how the signal changes could show how the two files act differently under processing.
 
